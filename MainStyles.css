@@ -1,0 +1,45 @@
+/* リセット CSS と全体設定 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* デバッグ用に緑背景 */
+    background-color: #169e09;
+    overflow: hidden;
+}
+
+.InfoBarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45vh;
+    background-color: #094f9e;
+}
+
+.CharacterBackImage,#character-back-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+}
+
+#character-image{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 65vh;
+    z-index: 1;
+}
